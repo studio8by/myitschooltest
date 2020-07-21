@@ -1,0 +1,61 @@
+body {
+    margin: 0px;
+    font-family: Arial, serif, sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 26px;
+    color: #09249c;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2, h3, h4, h5, h6 {
+    font-size: 21px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+
+.tel-heder {
+    font-style: oblique;
+    text-align: center;
+    /* не получилось грамотно центрировать содержимое, сделал через padding-left: 25%; */
+    padding-left: 25%;
+}
+
+.logo {
+    margin: 2% 0 0 2%;
+}
+
+.col1 {
+    width: 20%;
+    vertical-align: top;
+    text-decoration: none; /* не сработала отмена подчёркивания текста */
+}
+
+.col1, td {
+    vertical-align: top;
+}
+
+.col1, ul {
+    margin-top: 30px;
+}
+
+.col2 {
+    width: 80%;
+}
+
+.menu-head {
+    list-style-type: none;
+    font-weight: bold;
+}
